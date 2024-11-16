@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>airbnb</title>
+    <link rel="stylesheet" href="/styles/output.css">
+</head>
+<body class="bg-gray-100 h-screen">
+    <div class="max-w-md mx-auto p-4 mt-12 bg-white rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold text-center mb-4">Add your Home</h1>
+        <form action="/host/add-home" method="POST" class="flex flex-col">
+            <input type="text" placeholder="Enter the name of your home" name="houseName" class="p-2 mb-4 border border-gray-400 rounded-lg">
+            <input type="submit" value="Add Home" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
+        </form>
+    </div>
+</body>
+</html>
